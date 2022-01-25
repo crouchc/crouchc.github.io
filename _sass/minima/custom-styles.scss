@@ -1,2 +1,47 @@
 // Placeholder to allow defining custom styles that override everything else.
 // (Use `_sass/minima/custom-variables.scss` to override variable defaults)
+html {
+    overflow:overlay;
+}
+.info {
+    font-size: 20px;	
+}
+.container {
+    width:100%;
+}
+.container div {
+    width:100%;
+}
+.container .header {
+    padding: 2px;
+    cursor: pointer;
+    font-weight: bold;
+    text-align:center;
+}
+.container .content {
+    display: none;
+}
+.section {
+    padding-top: 30px;
+    margin: auto;
+}
+
+/* Slideshow container */
+.slideshow-container {
+  width: 400px;
+  height: 700px;
+  position: relative;
+  margin: auto;
+  float: left;
+}
+
+/* Hide the images by default */
+.mySlides {
+  display: none;
+}
+
+/* Fading animation */
+.fade {
+  animation-name: fade;
+  animation-duration: 2s;
+}
