@@ -1,13 +1,13 @@
-document.addEventListener('DOMContentLoaded', () => {
-    $(".header").click(function () {
-        $header = $(this);
-        $content = $header.next();
-        $(".content").not($content).slideUp().prev().text("More...");
-        $content.slideToggle(500, function () {
-            $header.text(function () {
-                return $content.is(":visible") ? "Less..." : "More...";
-            });
-        });
+function toggleProject(projectIndex) {
+  // Get the project info elements
+  const projectInfoElements = document.querySelectorAll('.project-info');
+  // Hide all project info elements
+  projectInfoElements.forEach(element => {
+    element.style.display = 'none';
+  });
+  // Show the project info element corresponding to the clicked project
+  const clickedProjectInfo = document.querySelector('#project-info-' + (projectIndex + 1));
+  clickedProjectInfo.style.display = 'block';
+}
 
-    });
-})
+

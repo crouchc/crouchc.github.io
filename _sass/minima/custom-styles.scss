@@ -45,3 +45,74 @@ html {
   animation-name: fade;
   animation-duration: 2s;
 }
+
+.project-container {
+  display: flex;
+  flex-direction: row;
+  background-color: #fff;
+  padding-top: 20px;
+  padding-left: 0px;
+  color: black;
+}
+
+.project-list {
+  flex: 1;
+  width: 250px;
+}
+
+.project-list ul {
+  list-style: none;
+  margin: 0;
+  padding: 0;
+}
+
+.project-list li {
+  cursor: pointer;
+  padding: 10px;
+  margin-bottom: 10px;
+  border-radius: 5px;
+  transition: background-color 0.5s ease-in-out;
+}
+
+.project-list li:hover {
+  background-color: #D3D3D3;
+}
+
+.project-details {
+  flex: 3;
+}
+
+.project-details h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.project-info {
+  display: none;
+  width: 400px;
+  padding-left: 15px;
+}
+
+#project-info-1 {
+  display: block;
+}
+
+.project-info.active {
+  display: block;
+  width: 400px;
+}
+
+.project-info h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.project-info img {
+  width: 100%;
+  max-width: 400px;
+  margin-bottom: 10px;
+}
+
+.project-info p {
+  font-size: 16px;
+}
