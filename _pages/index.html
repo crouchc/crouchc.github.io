@@ -46,9 +46,9 @@ order: 1
 	</div>
 	<div class="info" style="">Mechanical Engineering Intern<div style="font-size: 14px">RND Automation</div><div style="font-size: 14px">May 2022 - August 2022</div></div>
 	<div>
-	  <li>Designed and assembled web slitter machine to help employees modify film for testing customer machines during debug phase</li>
+	  <li>Designed and assembled web slitter machine to help employees modify film for testing customer machines during debugging phase</li>
 	  <li>Created new form for engineering change notices that automatically creates requisitions for procurement department</li>
-	  <li>Worked in combination with engineering lead to modify medical assembly machine according to change order from customer</li>
+	  <li>Worked in combination with engineering lead to modify medical assembly machine according to a change order from the customer</li>
 	</div>
 </div>
 
@@ -58,8 +58,8 @@ order: 1
 	</div>
 	<div class="info" style="">Research Assistant<div style="font-size: 14px">Herbert Wertheim College of Engineering</div><div style="font-size: 14px">Mar 2020 - May 2022</div></div>
 	<div>
-	  <li>First authoring research paper that details a smart home system that controls and monitors energy consumption and output based on real time data to maximize efficiency</li>
-	  <li>Using MATLAB and Python to run simulations on modeled homes with real world data to analyze controller productivity</li>
+	  <li>Aided in research paper that details a smart home system that controls and monitors energy consumption and output based on real time data to maximize efficiency</li>
+	  <li>Used MATLAB and Python to run simulations on modeled homes with real world data to analyze controller productivity</li>
 	</div>
 </div>
 
@@ -74,46 +74,51 @@ order: 1
 	</div>
 </div>
 
-
-
 <a id="projects"></a>
-<div style="padding-bottom: 50px;">
-	<h2>Notable Projects</h2>
-
-	<div class="container">
-	  <div class="info">Bioreactor Shaker Table (Capstone Project)</div>
-	  <div class="header"><span>More...</span></div>
-	  <div class="content">
-		<li>Led design and assembly on machine that takes rolls of film and cuts to a specified length by the operator then rerolls the film</li>
-		<li>Presented project in layout and design review to engineering team</li>
-		<li>Created multiple custom parts and modified sub assemblies to achieve necessary functions in machine</li>
-	  </div>
+<h2>Notable Projects</h2>
+<div class="project-container">
+  <ul class="project-list">
+    <li onclick="toggleProject(0)">BioReactor Shaker Table (Capstone Project)</li>
+    <li onclick="toggleProject(1)">Canisterized CubeSat Dispenser</li>
+    <li onclick="toggleProject(2)">Web Slitter and Re-Roller</li>
+	<li onclick="toggleProject(3)">Ball Retrieval and Release Robot</li>
+	<li onclick="toggleProject(4)">Design and 3D Creation of a Motorized Basketball Hoop</li>
+	<li onclick="toggleProject(5)">Proposal for Smart Capability in Campus Restrooms</li>
+	<li onclick="toggleProject(6)">Technical and Economic Analysis of Middle of the Market Aircraft</li>
+  </ul>
+  <div class="project-info-container">
+    <div class="project-info" id="project-info-1">
+		<li>Collaborated with team to design, prototype, and assemble a shaker table that met that customer's needs</li>
+		<li>Customer needs included IPX-5 certification, capable of reaching 350 RPM on linear, orbital and double orbital patterns, and optical density/fluorescent intensity sensing</li>
+		<li>Authored all software for the user interface and co-developed electrical schematic and circuit board</li>
+		<center>
+		  <a href="../project_reports/FDR_637U.pdf" target="_blank">View Project Report</a>
+		  <div style="padding: 10px;">
+			<img src="../images/shakertable.png" title="Full Assembly">
+		  </div>
+		</center>
 	</div>
-
-	<div class="container">
-	  <div class="info">Canisterized CubeSat Dispenser</div>
-	  <div class="header"><span>More...</span></div>
-	  <div class="content">
-		<li>Led design and assembly on machine that takes rolls of film and cuts to a specified length by the operator then rerolls the film</li>
-		<li>Presented project in layout and design review to engineering team</li>
-		<li>Created multiple custom parts and modified sub assemblies to achieve necessary functions in machine</li>
-	  </div>
+    <div class="project-info" id="project-info-2">
+		<li>Designed a canisterized satellite dispenser for a 12U CubeSat with a team of student enegineers</li>
+		<li>Customer needs included launch speed of 2 m/s, protection from orbital debri and contamination, and ability to communicate with earth throughout mission</li>
+		<center>
+		  <a href="../project_reports/cubesat_fdr.pdf" target="_blank">View Project Report</a>
+		  <div style="padding: 10px;">
+			<img src="../images/cubesat.png" title="Full Assembly">
+		  </div>
+		</center>
 	</div>
-
-	<div class="container">
-	  <div class="info">Web Slitter Machine</div>
-	  <div class="header"><span>More...</span></div>
-	  <div class="content">
-		<li>Led design and assembly on machine that takes rolls of film and cuts to a specified length by the operator then rerolls the film</li>
-		<li>Presented project in layout and design review to engineering team</li>
+    <div class="project-info" id="project-info-3">
+		<li>Managed design and assembly on machine that takes rolls of film and cuts to a specified length by the operator then rerolls the film</li>
+		<li>Presented project in layout and design reviews to engineering leads and team</li>
 		<li>Created multiple custom parts and modified sub assemblies to achieve necessary functions in machine</li>
-	  </div>
+		<center>
+		  <div style="padding: 10px;">
+			<img src="../images/webslitter_gif.gif" title="Full Assembly">
+		  </div>
+		</center>
 	</div>
-
-	<div class="container">
-	  <div class="info">Ball Retreival and Release Robot</div>
-	  <div class="header"><span>More...</span></div>
-	  <div class="content">
+	<div class="project-info" id="project-info-4">
 		<li>Collaborated to design, analyze, and evaluate a proposal for a robot that navigated a course and retrieved tennis balls</li>
 		<li>Design process required bi-weekly meetings, evaluation matrices, and a complete Solidworks assembly of robot</li>
 		<li>Functional features include gripping onto tennis balls on a multilevel stand, transferring them to a holding container on the robot, and then releasing the balls into a bucket</li>
@@ -123,69 +128,32 @@ order: 1
 			<img src="../images/dml_assembly.gif" title="Full Assembly">
 		  </div>
 		</center>
-	  </div>
 	</div>
-
-	<div class="container">
-	  <div class="info">Design and 3D Creation of Motorized Basketball Hoop</div>
-	  <div class="header"><span>More...</span></div>
-	  <div class="content">
-		<li>Identified and proposed a solution to a problem with two other students that had all aspects of the mechanical design process present</li>
-		<li>Personally contributed to overall concept design and specifically the gear system, bearings, shafting, and solidworks simulations</li>
-		<li>Project provided great perspective on the workings of an extremely detailed and thorough project for something that seems simple from first glance</li>
-		<center><a href="../project_reports/basketballhoop_report.pdf" target="_blank">View Project Report</a></center>
-	  </div>
-	</div>
-
-	<div class="container">
-	  <div class="info">Proposal for Smart Capability in Campus Restrooms</div>
-	  <div class="header"><span>More...</span></div>
-	  <div class="content">
-		<li>Worked in group to brainstorm a recommendation to improve safety and efficiency on campus by adding smart sensors in campus bathrooms</li>
-		<li>Collected data and conducted background research to determine the outcome smart sensors would have on the school</li>
-		<li>Proposed that adding a smart sensor into frequented bathrooms on campus would enhance employee planning and safety on campus</li>
-		<center><a href="../project_reports/smartbathroom_report.pdf" target="_blank">View Project Report</a></center>
-	  </div>
-	</div>
-
-	<div class="container">
-	  <div class="info">Technical and Economic Analysis of Middle of the Market Aircraft
-	  </div>
-	  <div class="header"><span>More...</span>
-	  </div>
-	  <div class="content">
-		<li>Collaborated with group to analyze over 40 current commercial air crafts and determine a gap in the market based on technical and economic factors</li> 
-		<li> Proposed economic and technical aspects of a middle of the market aircraft including interior and exterior dimensions, maximum takeoff weight, engine type, and cost per available seat mile </li>
-		<center><a href="../project_reports/momaircraft_report.pdf" target="_blank">View Project Report</a></center>
-	  </div>
-	</div>
-</div>
-
-<a id="projects2"></a>
-<h2>Notable Projects</h2>
-<div class="project-container">
-  <ul class="project-list">
-    <li onclick="toggleProject(0)">BioReactor Shaker Table (Capstone Project)</li>
-    <li onclick="toggleProject(1)">Canisterized CubeSat Dispenser</li>
-    <li onclick="toggleProject(2)">Web Slitter and Re-Roller</li>
-	<li onclick="toggleProject(3)">Ball Reetrieval and Release Robot</li>
-	<li onclick="toggleProject(4)">Design and 3D Creation of Motorized Basketball Hoop</li>
-	<li onclick="toggleProject(5)">Proposal for Smart Capability in Campus Restrooms</li>
-	<li onclick="toggleProject(6)">Technical and Economic Analysis of Middle of the Market Aircraft</li>
-  </ul>
-  <div class="project-info-container">
-    <div class="project-info" id="project-s-1">
-		<li>Collaborated with team to design, prototype, and assemble a shaker table that met that customer needs</li>
-		<li>Customer needs included IPX-5 certification, capable of reaching 350 RPM on linear, orbital and double orbital patterns, and optical density/fluorescent intensity sensing</li>
-		<li>Authored all software for the user interface and co-developed electrical schematic and circuit board</li>
+	<div class="project-info" id="project-info-5">
+		<li>Worked with team to design a basketball hoop that is raised or lowered with a motor to allow multiple levels of play</li>
+		<li>All aspects of assembly were outlined by team including gear train, bearing and shaft selection, fasteners, and structure using engineering analyses</li>
+		<li>Presented project in detailed report including comparisons of SolidWorks motion studies and engineering theory</li>
 		<center>
-		  <a href="../project_reports/dml_report2.pdf" target="_blank">View Project Report</a>
+		  <a href="../project_reports/basketballhoop_report.pdf" target="_blank">View Project Report</a>
 		  <div style="padding: 10px;">
-			<img src="../images/dml_assembly.gif" title="Full Assembly">
+			<img src="../images/basketballhoop.png" title="Full Assembly">
 		  </div>
 		</center>
 	</div>
-    <div class="project-info" id="project-info-2">Project 2 Info goes here.</div>
-    <div class="project-info" id="project-info-3">Project 3 Info goes here.</div>
+	<div class="project-info" id="project-info-6">
+		<li>Worked in group to brainstorm a recommendation to improve safety and efficiency on campus by adding smart sensors in campus bathrooms</li>
+		<li>Collected data and conducted background research to determine the outcome smart sensors would have on the school</li>
+		<li>Proposed that adding a smart sensor into frequented bathrooms on campus would enhance employee planning and safety on campus</li>
+		<center>
+		  <a href="../project_reports/smartbathroom_report.pdf" target="_blank">View Project Report</a>
+		</center>
+	</div>
+	<div class="project-info" id="project-info-7">
+		<li>Collaborated with group to analyze over 40 current commercial air crafts and determine a gap in the market based on technical and economic factors</li>
+		<li>Proposed economic and technical aspects of a middle of the market aircraft including interior and exterior dimensions, maximum takeoff weight, engine type, and cost per available seat mile</li>
+		<center>
+		  <a href="../project_reports/momaircraft_report.pdf" target="_blank">View Project Report</a>
+		</center>
+	</div>
   </div>
 </div>
